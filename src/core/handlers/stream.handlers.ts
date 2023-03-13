@@ -1,5 +1,5 @@
 import { ChildProcessWithoutNullStreams } from "child_process";
-import { IStreamLogger } from "./stream-logger.interface";
+import { IStreamLogger } from "./stream-logger.interface.js";
 
 export class StreamHandler {
     constructor(private logger: IStreamLogger){}
