@@ -1,0 +1,19 @@
+{
+  "name": "first_ts_project",
+  "version": "1.0.0",
+  "description": "Command executer",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Albinator1707/first_ts_project.git"
+  },
+  "author": "Albina Blazhko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Albinator1707/first_ts_project/issues"
+  },
+  "homepage": "https://github.com/Albinator1707/first_ts_project#readme"
+}
