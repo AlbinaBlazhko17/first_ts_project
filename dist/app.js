@@ -7,12 +7,12 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-import { PromptService } from "./core/prompt/prompt.service.js";
+import { FfmpegExecutor } from "./commands/ffmpeg/ffmpeg.executor.js";
+import { ConsoleLogger } from "./out/console/console.logger.js";
 export class App {
     run() {
         return __awaiter(this, void 0, void 0, function* () {
-            const res = yield (new PromptService().input('Number', 'number'));
-            console.log(res);
+            new FfmpegExecutor(ConsoleLogger.getInstance()).execute();
         });
     }
 }
